@@ -5,10 +5,10 @@ import flowDef from "./def/flow";
 import esprimaDef from "./def/esprima";
 import babelDef from "./def/babel";
 import typescriptDef from "./def/typescript";
-import { ASTNode, Type, AnyType, Field } from "./types";
-import { NodePath } from "./node-path";
+import { ASTNode, type Type, AnyType, Field } from "./types";
+import { type NodePath } from "./node-path";
 import { namedTypes } from "./gen/namedTypes";
-import { builders } from "./gen/builders";
+import { type builders } from "./gen/builders";
 import { Visitor } from "./gen/visitor";
 
 const {
